@@ -21,10 +21,10 @@ Natasha Kinuthia
  ---
 
  # Technologies used
- . Html
- . Css
- . Javascript
- . Bootstrap
+ <li>. Html</li>
+ <li>. Css</li>
+ <li>. Javascript</li>
+ <li>. Bootstrap</li>
 
 ---
  # Behaviour Driven Development
