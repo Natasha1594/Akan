@@ -32,6 +32,8 @@ Natasha Kinuthia
 
  |Inputs| Description|
  |---|---|
+ |Date| The day of the month|
+
 
 
 
