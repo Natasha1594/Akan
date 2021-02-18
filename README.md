@@ -35,10 +35,13 @@ Natasha Kinuthia
 
  ---
 
+ # Contact information
+
+ You can reach me on my email <a href = kinuthianatasha@gmail.com>click here</a>
 
  # License and copyright
 
-<span>&#169;</span>Copyright (c) 2021 Natasha1594
+<span>&#169;</span>Copyright 2021 Natasha1594
 
 
 
@@ -50,8 +53,3 @@ Natasha Kinuthia
 
 # Contributors
 
-//Setup instructions - includes any scripts that need to be run if necessary.
-//BDD.
-//Technologies used.
-//Contact information.
-//License and Copyright information
