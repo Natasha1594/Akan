@@ -33,11 +33,11 @@ Natasha Kinuthia
  |Inputs| Description|
  |---|---|
  |Date| The day of the month, e.g. 17th day|
- |---|---|
+
  |Month| The month of the year, e.g. 9th month|
- |---|---|
+
  |Year|The year of the century, e.g. 02 year|
- |---|---|
+ 
  |Century| The century the person was born in, e.g. 2oth century|
 
 
