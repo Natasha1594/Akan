@@ -21,10 +21,10 @@ Natasha Kinuthia
  ---
 
  # Technologies used
- <li>. Html</li>
- <li>. Css</li>
- <li>. Javascript</li>
- <li>. Bootstrap</li>
+ <li>Html</li>
+ <li>Css</li>
+ <li>Javascript</li>
+ <li>Bootstrap</li>
 
 ---
  # Behaviour Driven Development
@@ -37,7 +37,7 @@ Natasha Kinuthia
 
  # Contact information
 
- You can reach me on my email <a href = kinuthianatasha@gmail.com>click here</a>
+ You can reach me on my email  [My email address](kinuthianatasha@gmail.com)
 
  # License and copyright
 
