@@ -48,7 +48,13 @@ if (monthofyear <= 2) {
     yearofbirth -= 1;
 }
 
+//Splitting the year into century code to year code
+zerobasedcentury = parseInt(yearofbirth / 100);
+yearofcentury = yearofbirth % 100;
 
+let dayofweek = 
+(dayofmonth +
+     
 
 
 
