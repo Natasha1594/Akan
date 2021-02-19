@@ -36,11 +36,10 @@ return [gender, day, month, year];
 }
 
 //Calculating the day of the week from a specific date
-function calculateweekday() {
+function calculateweekday() 
+{
 let [dayofmonth, monthofyear, yearofbirth] = birthdate;
 let zerobasedcentury, yearofcentury;
-
-}
 
 //Counting days of the month
 if (monthofyear <= 2) {
@@ -62,7 +61,29 @@ let dayofweek =
         5 * zerobasedcentury
     )) % 7;
 
-//
+//Day of week indexing
+return dayofweek;
+}
+//Derives the user gender from the Akan names
+function deriveakanname() {
+    let formdata = fetchformdata();
+    let userbirthdate, usergender, dayofweek;
+
+
+    [usergender, ...userbirthdate] = formdata;
+    dayofweek = calculateweekday(userbirthdate);
+
+    if (usergender === "Male") {
+        alert("Your Akan name is " + maleakannames[dayofweek]);
+
+    } else {
+        alert("Your Akan name " + femaleakannames[dayofweek]);
+    }
+
+
+
+}
+  
      
 
 
