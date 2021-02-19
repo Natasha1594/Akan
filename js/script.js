@@ -35,5 +35,20 @@ return [gender, day, month, year];
 
 }
 
+//Calculating the day of the week from a specific date
+function calculateweekday() {
+let [dayofmonth, monthofyear, yearofbirth] = birthdate;
+let zerobasedcentury, yearofcentury;
+
+}
+
+//Counting days of the month
+if (monthofyear <= 2) {
+    monthofyear += 12;
+    yearofbirth -= 1;
+}
+
+
+
 
 
