@@ -84,7 +84,7 @@ function deriveakanname() {
         alert("Your Akan name is " + maleakannames[dayofweek]);
 
     } else {
-        alert("Your Akan name " + femaleakannames[dayofweek]);
+        alert("Your Akan name " + femaleakannames[dayofweek], "Natasha");
     }
 
 
