@@ -2,6 +2,7 @@
 const femaleakannames = [
     "Akosua",
     "Adwoa",
+    "Abenaa",
     "Akua",
     "Yaa",
     "Afua",
@@ -10,12 +11,12 @@ const femaleakannames = [
 
 //A list of the Akan male names from Sunday to Saturday
 const maleakannames = [
-    "Kwasi"
-    "Kwadwo"
-    "Kwabena"
-    "Kwaku"
-    "Yaw"
-    "Kofi"
+    "Kwasi",
+    "Kwadwo",
+    "Kwabena",
+    "Kwaku",
+    "Yaw",
+    "Kofi",
     "Kwame"
 ];
 
@@ -36,8 +37,8 @@ return [gender, day, month, year];
 }
 
 //Calculating the day of the week from a specific date
-function calculateweekday() 
-{
+function calculateweekday(birthdate) {
+
 let [dayofmonth, monthofyear, yearofbirth] = birthdate;
 let zerobasedcentury, yearofcentury;
 
