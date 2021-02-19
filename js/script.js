@@ -84,7 +84,7 @@ function deriveakanname() {
 
     //This clears the text boxes after retriving the values
 
-    return false
+    return false;
 
 
 
