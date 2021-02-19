@@ -53,7 +53,16 @@ zerobasedcentury = parseInt(yearofbirth / 100);
 yearofcentury = yearofbirth % 100;
 
 let dayofweek = 
-(dayofmonth +
+(dayofmonth + 
+    parseInt(
+        2.6 * (monthofyear + 1) + 
+        yearofcentury + 
+        parseInt(yearofcentury / 4) +
+        parseInt(zerobasedcentury / 4) + 
+        5 * zerobasedcentury
+    )) % 7;
+
+//
      
 
 
