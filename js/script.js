@@ -1,23 +1,29 @@
 //A list of the Akan female names from Sunday to Saturday
 const femaleakannames = [
+    "Ama",
     "Akosua",
     "Adwoa",
     "Abenaa",
     "Akua",
     "Yaa",
-    "Afua",
-    "Ama"
+    "Afua"
+    
+    
+    
 ];
 
 //A list of the Akan male names from Sunday to Saturday
 const maleakannames = [
+    "Kwame",
+    "Kofi",
     "Kwasi",
     "Kwadwo",
     "Kwabena",
     "Kwaku",
-    "Yaw",
-    "Kofi",
-    "Kwame"
+    "Yaw"
+    
+    
+    
 ];
 
 
