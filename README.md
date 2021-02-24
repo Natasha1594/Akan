@@ -2,8 +2,8 @@
 
 ** Version 1.0.0**
 
-## Description
-TWI is an application that generates the Akan name of a user by logically calculating the day of the week when the user was born. The word TWI is derived from the Akan people of Ghana. The application expects the user to type in the day of the month, month of the year and year of birth respectively, and click on the generate button to receive an alert with information on their Akan name and day of the week for which they were born. 
+## Description 
+TWI is a javascript coded application that generates the Akan name of a user by logically calculating the day of the week when the user was born. The word TWI is derived from the Akan people of Ghana. The application expects the user to type in the day of the month, month of the year and year of birth respectively, and click on the generate button to receive an alert with information on their Akan name and day of the week for which they were born. 
 
 Akan is a language spoken by 80% of people in Ghana.
 The Akan naming rubric is as follows :
