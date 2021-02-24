@@ -3,9 +3,40 @@
 ** Version 1.0.0**
 
 ## Description
-Twi its an Akan dielect. Akan is a language spoken by 80% of people in Ghana.
-This application displays an Akan name depending on the month, year and day you were born. By entering the year, month and day of birth, accompanied by your gender, the application will assign an Akan name upon clicking on the submit button.
+TWI is an application that generates the Akan name of a user by logically calculating the day of the week when the user was born. The word TWI is derived from the Akan people of Ghana. The application expects the user to type in the day of the month, month of the year and year of birth respectively, and click on the generate button to receive an alert with information on their Akan name and day of the week for which they were born. 
 
+Akan is a language spoken by 80% of people in Ghana.
+The Akan naming rubric is as follows :
+
+<bold>Male</bold>
+<li>Sunday: Kwasi</li>
+
+<li>Monday: Kwadwo</li>
+
+<li>Tuesday: Kwabena</li>
+
+<li>Wednesday: Kwaku</li>
+
+<li>Thursday:  Yaw</li>
+
+<li>Friday: Kofi</li>
+
+<li>Saturday: Kwame</li>
+
+<bold>Female</bold>
+<li>Sunday: Akosua</li>
+
+<li>Monday: Adwoa</li>
+
+<li>Tuesday: Abenaa</li>
+
+<li>Wednesday: Akua</li>
+
+<li>Thursday:  Yaa</li>
+
+<li>Friday: Afua</li>
+
+<li>Saturday: Ama</li>
 ---
 
 ## Author
