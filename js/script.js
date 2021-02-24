@@ -81,10 +81,10 @@ function deriveakanname() {
     dayofweek = calculateweekday(userbirthdate);
 
     if (usergender === "Male") {
-        alert("Your Akan name is " + maleakannames[dayofweek]);
+        alert("Your Akan name is " + maleakannames[dayofweek]+ ". You were born on a " + dayofweek);
 
     } else {
-        alert("Your Akan name " + femaleakannames[dayofweek], "Natasha");
+        alert("Your Akan name is " + femaleakannames[dayofweek]+ ". You were born on a " + dayofweek);
     }
 
 
