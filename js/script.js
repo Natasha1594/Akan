@@ -80,11 +80,34 @@ function deriveakanname() {
     [usergender, ...userbirthdate] = formdata;
     dayofweek = calculateweekday(userbirthdate);
 
+
+    //It indicates the day of the week derived from the akan name
+    if ([dayofweek] == 0) {
+        var dayW = "Saturday"; 
+    } else if ([dayofweek] == 1) { 
+        var dayW = "Sunday";
+    } else if ([dayofweek] == 2) { 
+        var dayW = "Monday";
+    } else if ([dayofweek] == 3) { 
+        var dayW = "Tuesday";
+    } else if ([dayofweek] == 4) { 
+        var dayW = "Wednesday";
+    } else if ([dayofweek] == 5) { 
+        var dayW = "Thursday";
+    } else { 
+        var dayW = "Friday";
+    }
+         
+
+
+    
+    //This displays to the user their akan name and day of the week they were born
+
     if (usergender === "Male") {
-        alert("Your Akan name is " + maleakannames[dayofweek]+ ". You were born on a " + dayofweek);
+        alert("Accoriding to the system,\nYour Akan name is " + maleakannames[dayofweek]+ ". \nThe day of the week you were born, was on a " + dayW + ".");
 
     } else {
-        alert("Your Akan name is " + femaleakannames[dayofweek]+ ". You were born on a " + dayofweek);
+        alert("According to the system, \nYour Akan name is " + femaleakannames[dayofweek]+ ". \nThe day of the week you were born, was on a " + dayW + ".");
     }
 
 
